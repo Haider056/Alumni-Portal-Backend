@@ -12,14 +12,7 @@ const router = express.Router();
 
 
 
-const isLoggedIn = (req, res, next) => {
-  if (req.session.isLoggedIn) {
-    next(); 
-  } else {
-    console.log('Unauthorized access attempt to protected route'); 
-    res.status(401).json({ message: 'Unauthorized: Please log in' });
-  }
-};
+
 router.get('/bookings', AuditoriumController.getAllBookings);
 router.post('/signup', authController.signup);
 router.post('/login', authController.login);
