@@ -1,4 +1,4 @@
-const { postJoborInternshipModel } = require('../Models/PostJoborInternshipModel');
+const { postJoborInternshipModel } = require('../Models/postJobOrInternshipModel');
 const pool = require('../Src/Config/db');
 class PostJoborInternshipController {
   async createPostJobOrInternship(req, res) {
