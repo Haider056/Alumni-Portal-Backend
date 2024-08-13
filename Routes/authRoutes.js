@@ -1,5 +1,5 @@
 const express = require('express');
-const authController = require('../controllers/authController');
+const authController = require('../https://github.com/Haider056/Alumni-portal-backend/tree/main/Controllers/authController.js');
 const UserPortfolioController = require('../controllers/UserPortfolioController');
 const NewsController = require('../Controllers/AdminNewsController');
 const PostJobOrInternshipController = require('../Controllers/postJobOrInternshipController'); 
