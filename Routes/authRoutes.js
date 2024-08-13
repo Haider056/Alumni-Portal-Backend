@@ -17,7 +17,7 @@ router.get('/bookings', AuditoriumController.getAllBookings);
 router.post('/signup', authController.signup);
 router.post('/login', authController.login);
 router.post('/createNews', NewsController.createNews); 
-router.use(isLoggedIn); 
+ 
 router.post('/book', AuditoriumController.bookAuditorium);
 router.post('/logout', authController.logout);
 router.post('/createPortfolio', UserPortfolioController.createOrUpdatePortfolio);
