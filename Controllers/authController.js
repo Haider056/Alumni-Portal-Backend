@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const userModel = require('../models/userModel');
+const userModel = require('../Models/userModel');
 const jwt = require('jsonwebtoken');
 const nodemailer = require('nodemailer');
 class AuthController {
